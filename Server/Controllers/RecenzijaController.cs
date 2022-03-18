@@ -55,7 +55,7 @@ namespace Server.Controllers
             var recenzijaPostoji = Context.Recenzije.Where(p => p.IgraFK == igra && p.KorisnikFK == korisnik).FirstOrDefault();
             if(recenzijaPostoji != null)
             {
-                return BadRequest("Korisnik je vec uneo ocenu za odabranu igru!");
+                return BadRequest("Korisnik je vec uneo recenziju za odabranu igru!");
             }
             try
             {
