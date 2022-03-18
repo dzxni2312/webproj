@@ -147,9 +147,7 @@ export class Sajt{
         l.innerHTML="Recenzija:";
         red.appendChild(l);
         red = this.crtajRed(host);
-        let reviewPolje = document.createElement("input");
-        reviewPolje.className = "PoljeReview";
-        reviewPolje.type = "text";
+        let reviewPolje = document.createElement("textarea");
         red.appendChild(reviewPolje);
 
 

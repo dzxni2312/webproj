@@ -22,17 +22,12 @@ namespace Server.Controllers
 
         [Route("DodajKorisnika/{username}")]
         [HttpPost]
-        public async Task<ActionResult> DodajKorisnika(string username//, string password
-        )
+        public async Task<ActionResult> DodajKorisnika(string username)
         {
             if(string.IsNullOrWhiteSpace(username) || username.Length>50)
             {
                 return BadRequest("Unesite validno korisnicko ime!");
             }
-           // if(string.IsNullOrWhiteSpace(password) || password.Length>50)
-           // {
-           //     return BadRequest("Unesite validnu lozinku!");
-           //  }
             var korisnik = Context.Korisnici.Where(p => p.Username == username).FirstOrDefault();
             if(korisnik != null)
             {
@@ -44,7 +39,6 @@ namespace Server.Controllers
                 Korisnik k = new Korisnik
                 {
                     Username = username,
-                    //Password = password
                 };
 
                 Context.Korisnici.Add(k);
