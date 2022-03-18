@@ -1,0 +1,76 @@
+INSERT INTO Prodavnica (ID, CenaIgre, KolicinaProdatih, IgraFKID) VALUES (1, 60 , 9000000, 1);
+INSERT INTO Prodavnica (ID, CenaIgre, KolicinaProdatih, IgraFKID) VALUES (2, 60 , 9200000, 2);
+INSERT INTO Prodavnica (ID, CenaIgre, KolicinaProdatih, IgraFKID) VALUES (3, 30 , 8000000, 3);
+INSERT INTO Prodavnica (ID, CenaIgre, KolicinaProdatih, IgraFKID) VALUES (4, 30 , 7500000, 4);
+INSERT INTO Prodavnica (ID, CenaIgre, KolicinaProdatih, IgraFKID) VALUES (5, 15 , 2000000, 5);
+INSERT INTO Prodavnica (ID, CenaIgre, KolicinaProdatih, IgraFKID) VALUES (6, 40 , 7000000, 6);
+INSERT INTO Prodavnica (ID, CenaIgre, KolicinaProdatih, IgraFKID) VALUES (7, 50 , 5000000, 7);
+
+
+ INSERT INTO Sysreq (ID, CPU, GPU, RAM, FreeSpace, IgraFKID) VALUES (1, 'Intel Core i5-8400/AMD Ryzen 3 3300X' , 'Nvidia GeForce GTX 1060/AMD Radeon RX 580', 12, 60, 1);
+  INSERT INTO Sysreq (ID, CPU, GPU, RAM, FreeSpace, IgraFKID) VALUES (2, 'Intel Core i5-2500K/AMD FX-6300' , 'Nvidia GeForce GTX 770 2GB/AMD Radeon R9 280', 8, 150, 2);
+  INSERT INTO Sysreq (ID, CPU, GPU, RAM, FreeSpace, IgraFKID) VALUES (3, 'Intel CPU Core i5-2500K/AMD CPU Phenom II X4 940' , 'Nvidia GPU GeForce GTX 660/AMD GPU Radeon HD 7870', 6, 35, 3);
+  INSERT INTO Sysreq (ID, CPU, GPU, RAM, FreeSpace, IgraFKID) VALUES (4, 'Intel Core i5-2300/AMD Phenom II X4 945' , 'NVIDIA GTX 550 Ti/AMD Radeon HD 7870', 8, 30, 4);
+  INSERT INTO Sysreq (ID, CPU, GPU, RAM, FreeSpace, IgraFKID) VALUES (5, 'Intel Core 2 Duo E5200' , 'GeForce 9800GTX+ (1GB)', 4, 9, 5);
+  INSERT INTO Sysreq (ID, CPU, GPU, RAM, FreeSpace, IgraFKID) VALUES (6, 'Intel Core i3 2100/AMD A8-6500' , 'NVIDIA GeForce GTX 770 VRAM 2GB/AMD Radeon R9 270X', 4, 50, 6);
+  INSERT INTO Sysreq (ID, CPU, GPU, RAM, FreeSpace, IgraFKID) VALUES (7, 'Intel Core i5-2500K/AMD FX 6300' , 'Nvidia GeForce GTX 780/AMD Radeon R9 290', 8, 100, 7);
+  INSERT INTO Sysreq (ID, CPU, GPU, RAM, FreeSpace, IgraFKID) VALUES (8, 'Intel Core i7-8700K/AMD Ryzen 5 3600X' , 'Nvidia GeForce GTX 1070, 8GB/AMD Radeon RX Vega 56, 8GB', 16, 60, 1);
+  INSERT INTO Sysreq (ID, CPU, GPU, RAM, FreeSpace, IgraFKID) VALUES (9, 'Intel Core i7-4770K / AMD Ryzen 5 1500X' , 'Nvidia GeForce GTX 1060 6GB / AMD Radeon RX 480 4GB', 12, 150, 2);
+  INSERT INTO Sysreq (ID, CPU, GPU, RAM, FreeSpace, IgraFKID) VALUES (10, 'Intel CPU Core i7 3770 3.4 GHz / AMD CPU AMD FX-8350 4 GHz' , 'Nvidia GPU GeForce GTX 770 / AMD GPU Radeon R9 290', 8, 35, 3);
+  INSERT INTO Sysreq (ID, CPU, GPU, RAM, FreeSpace, IgraFKID) VALUES (11, 'Intel Core i7 4790 3.6 GHz/AMD FX-9590 4.7 GHz' , 'NVIDIA GTX 780 3GB/AMD Radeon R9 290X 4GB ', 8, 30, 4);
+  INSERT INTO Sysreq (ID, CPU, GPU, RAM, FreeSpace, IgraFKID) VALUES (12, 'Intel Core i5' , 'GeForce GTX 560', 8, 9, 5);
+  INSERT INTO Sysreq (ID, CPU, GPU, RAM, FreeSpace, IgraFKID) VALUES (13, 'Intel Core i5 4670 or AMD A10-7850K' , 'NVIDIA GeForce GTX 980 VRAM 4GB or AMD Radeon R9 380X VRAM 4GB', 8, 50, 6);
+  INSERT INTO Sysreq (ID, CPU, GPU, RAM, FreeSpace, IgraFKID) VALUES (14, 'Intel Core i7-4770K@3.5GHz or Ryzen 5 1500X@3.5GHz' , 'Nvidia GeForce GTX 1060 (6 GB) or AMD Radeon RX 580 (8GB)', 16, 100, 7);
+
+
+  INSERT INTO Recenzija (ID, Ocena, Duzina, Review, IgraFKID, KorisnikFKID) VALUES (1, 10 , 80 , 'WARNING : This game can ruin other openworld games for you!!!', 1, 1);
+  INSERT INTO Recenzija (ID, Ocena, Duzina, Review, IgraFKID, KorisnikFKID) VALUES (2, 9 , 70 , 'A near perfect game that needs some performance improvements', 1, 2);
+  INSERT INTO Recenzija (ID, Ocena, Duzina, Review, IgraFKID, KorisnikFKID) VALUES (3, 9 , 75 , 'Best game ive ever played.', 1, 3);
+  INSERT INTO Recenzija (ID, Ocena, Duzina, Review, IgraFKID, KorisnikFKID) VALUES (4, 10 , 88 , 'Was pessimistic, it lives up to the hype.', 1, 4);
+  INSERT INTO Recenzija (ID, Ocena, Duzina, Review, IgraFKID, KorisnikFKID) VALUES (5, 9 , 110 , 'There are 168 hours in a week. I have played Elden Ring for 102 hours of those 168... Pretty fun game', 1, 5);
+  INSERT INTO Recenzija (ID, Ocena, Duzina, Review, IgraFKID, KorisnikFKID) VALUES (6, 10 , 60 , 'Red Dead Redemption 2s stark, slow depiction of Americas fading frontier is a monumental work straining against stubborn mission design and stability problems.', 2, 1);
+  INSERT INTO Recenzija (ID, Ocena, Duzina, Review, IgraFKID, KorisnikFKID) VALUES (7, 9 , 56 , 'One of the greatest games of all time', 2, 2);
+  INSERT INTO Recenzija (ID, Ocena, Duzina, Review, IgraFKID, KorisnikFKID) VALUES (8, 8 , 78 , 'Best game i have ever played.', 2, 3);
+  INSERT INTO Recenzija (ID, Ocena, Duzina, Review, IgraFKID, KorisnikFKID) VALUES (9, 10 , 88 , 'Best openworld game of all time', 2, 4);
+  INSERT INTO Recenzija (ID, Ocena, Duzina, Review, IgraFKID, KorisnikFKID) VALUES (10, 8 , 124 , 'Pretty fun game', 2, 5);
+    INSERT INTO Recenzija (ID, Ocena, Duzina, Review, IgraFKID, KorisnikFKID) VALUES (11, 8 , 80 , 'The Witcher 3: Wild Hunt is the new RPG by which all other RPGs should be judged. Not only has CD Projekt Red deliverered the largest and most convincing fantasy open-world we have ever seen, but a storyline, quests and systems that make it an incredibly compelling place to run, ride and sail around in.', 3, 1);
+  INSERT INTO Recenzija (ID, Ocena, Duzina, Review, IgraFKID, KorisnikFKID) VALUES (12, 8 , 99 , 'A near perfect game', 3, 2);
+  INSERT INTO Recenzija (ID, Ocena, Duzina, Review, IgraFKID, KorisnikFKID) VALUES (13, 9 , 155 , 'Best game i have ever played.', 3, 3);
+  INSERT INTO Recenzija (ID, Ocena, Duzina, Review, IgraFKID, KorisnikFKID) VALUES (14, 8 , 111 , 'Was pessimistic, it lives up to the hype.', 3, 4);
+  INSERT INTO Recenzija (ID, Ocena, Duzina, Review, IgraFKID, KorisnikFKID) VALUES (15, 9 , 110 , 'Game of the year', 3, 5);
+    INSERT INTO Recenzija (ID, Ocena, Duzina, Review, IgraFKID, KorisnikFKID) VALUES (16, 8 , 55 , 'Fallout 4 has all the ambiance and history that made its predecessors such wonderful places to get lost for hours at a time, with a much more coherent set of stories within it. That Bethesda has integrated a major building and crafting tool while finally building a great-playing game almost feels like a bonus', 4, 1);
+  INSERT INTO Recenzija (ID, Ocena, Duzina, Review, IgraFKID, KorisnikFKID) VALUES (17, 6 , 44 , 'Huge disappointment', 4, 2);
+  INSERT INTO Recenzija (ID, Ocena, Duzina, Review, IgraFKID, KorisnikFKID) VALUES (18, 8 , 66 , 'Its decent I guess', 4, 3);
+  INSERT INTO Recenzija (ID, Ocena, Duzina, Review, IgraFKID, KorisnikFKID) VALUES (19, 9 , 66 , 'Was pessimistic, it lives up to the hype.', 4, 4);
+  INSERT INTO Recenzija (ID, Ocena, Duzina, Review, IgraFKID, KorisnikFKID) VALUES (20,8 , 65 , 'Its not as good as older fallout games but its still a solid game', 4, 5);
+    INSERT INTO Recenzija (ID, Ocena, Duzina, Review, IgraFKID, KorisnikFKID) VALUES (21, 6 , 31 , 'Hollow Knight’s rich world and incredible depth of content will make you want to explore its caves for dozens of hours.', 5, 1);
+  INSERT INTO Recenzija (ID, Ocena, Duzina, Review, IgraFKID, KorisnikFKID) VALUES (22, 8 , 26 , 'A near perfect game that needs some performance improvements', 5, 2);
+  INSERT INTO Recenzija (ID, Ocena, Duzina, Review, IgraFKID, KorisnikFKID) VALUES (23, 9 , 28 , 'Best game ive ever played.', 5, 3);
+  INSERT INTO Recenzija (ID, Ocena, Duzina, Review, IgraFKID, KorisnikFKID) VALUES (24, 7 , 23 , 'Was pessimistic, it lives up to the hype.', 5, 4);
+  INSERT INTO Recenzija (ID, Ocena, Duzina, Review, IgraFKID, KorisnikFKID) VALUES (25, 8 , 26 , 'Great indie game', 5, 5);
+    INSERT INTO Recenzija (ID, Ocena, Duzina, Review, IgraFKID, KorisnikFKID) VALUES (26, 10 , 33 , 'Offering a fresh blend of action and RPG gameplay styles, NieR: Automata is the follow-up to the 2010 cult hit NieR. It tells the story of the YoRHa squad and their battle to reclaim a machine-driven dystopia overrun by powerful weapons known as machine lifeforms.', 6, 1);
+  INSERT INTO Recenzija (ID, Ocena, Duzina, Review, IgraFKID, KorisnikFKID) VALUES (27, 9 , 44 , 'A near perfect game that needs some performance improvements', 6, 2);
+  INSERT INTO Recenzija (ID, Ocena, Duzina, Review, IgraFKID, KorisnikFKID) VALUES (28, 8 , 43 , 'Best game ive ever played.', 6, 3);
+  INSERT INTO Recenzija (ID, Ocena, Duzina, Review, IgraFKID, KorisnikFKID) VALUES (29, 9 , 41 , 'Was pessimistic, it lives up to the hype.', 6, 4);
+  INSERT INTO Recenzija (ID, Ocena, Duzina, Review, IgraFKID, KorisnikFKID) VALUES (30,9 , 35 , 'The sequel to Yoko Taros cult hit is a beautifully frenetic hack-and-slasher with an engrossing and layered story.', 6, 5);
+    INSERT INTO Recenzija (ID, Ocena, Duzina, Review, IgraFKID, KorisnikFKID) VALUES (31, 8 , 31 , 'Prelepi otvoreni svet prepun mehaničkih čudovišta i zanimljivih borbi, Horizon: Zero Dawn postavlja novi standard za kvalitet openworld akcionih RPG naslova', 7, 1);
+  INSERT INTO Recenzija (ID, Ocena, Duzina, Review, IgraFKID, KorisnikFKID) VALUES (32, 8 , 55 , 'Horizon Zero Dawn nema klasične lovačke priče – doista možete natjerati dva ogromna dinosaura da svojim obračunom izazovu potres dok vi čučite u žbunju i čekate zeca od čijeg ćete krzna napraviti novu torbicu.', 7, 2);
+  INSERT INTO Recenzija (ID, Ocena, Duzina, Review, IgraFKID, KorisnikFKID) VALUES (33,8 , 44 , 'Best game ive ever played.', 7, 3);
+  INSERT INTO Recenzija (ID, Ocena, Duzina, Review, IgraFKID, KorisnikFKID) VALUES (34, 7 , 22 , 'At the outset it may remind you of games you’ve played before, but — like the genre-blending world it takes place in — Horizon ultimately proves that combining the familiar can lead to something new.', 7, 4);
+  INSERT INTO Recenzija (ID, Ocena, Duzina, Review, IgraFKID, KorisnikFKID) VALUES (35,8 , 33 , 'Odlicna igra' , 7, 5);
+
+
+  INSERT INTO Korisnik (ID, Username) VALUES (1, 'nikola1212');
+  INSERT INTO Korisnik (ID, Username) VALUES (2, 'stefan01');
+  INSERT INTO Korisnik (ID, Username) VALUES (3, 'shroud');
+  INSERT INTO Korisnik (ID, Username) VALUES (4, 'rekkles');
+  INSERT INTO Korisnik (ID, Username) VALUES (5, 'niko');
+
+
+  INSERT INTO Igra (ID, Naziv, Zanr, GodinaIzlaska, Developer, Publisher) VALUES (1 , 'Elden Ring' , 'Soulslike' , 2022 , 'From Software' , 'Namco Bandai');
+  INSERT INTO Igra (ID, Naziv, Zanr, GodinaIzlaska, Developer, Publisher) VALUES (2 , 'Red Dead Redemption 2' , 'Action' , 2018 , 'Rockstar' , 'Rockstar');
+  INSERT INTO Igra (ID, Naziv, Zanr, GodinaIzlaska, Developer, Publisher) VALUES (3 , 'Witcher 3' , 'RPG' , 2015 , 'CD Projekt' , 'CD Projekt');
+  INSERT INTO Igra (ID, Naziv, Zanr, GodinaIzlaska, Developer, Publisher) VALUES (4 , 'Fallout 4' , 'RPG' , 2015 , 'Bethesda' , 'Bethesda');
+  INSERT INTO Igra (ID, Naziv, Zanr, GodinaIzlaska, Developer, Publisher) VALUES (5 , 'Hollow Knight' , 'Metroidvania' , 2017 , 'Team Cherry' , 'Team Cherry');
+  INSERT INTO Igra (ID, Naziv, Zanr, GodinaIzlaska, Developer, Publisher) VALUES (6 , 'Nier Automata' , 'Action' , 2017 , 'Platinum Games' , 'Square Enix');
+  INSERT INTO Igra (ID, Naziv, Zanr, GodinaIzlaska, Developer, Publisher) VALUES (7 , 'Horizon Zero Dawn' , 'Action' , 2017 , 'Guerilla Games' , 'Playstation');
