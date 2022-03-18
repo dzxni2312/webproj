@@ -404,7 +404,6 @@ export class Sajt{
             alert("Unesite vrednost izmedju 1 i 250");
             return;
         }
-        //duzina stringa veca od 1000?
         
         let igraOptionEl = this.kontejner.querySelector("select[id='selectRecenzija']");
         var idIgre = igraOptionEl.options[igraOptionEl.selectedIndex].value;
