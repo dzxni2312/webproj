@@ -40,7 +40,9 @@ table,tr,th, td{
     border-width: 2px;
     border-color: #73AD21;
     background-color: #362e2e;
-    flex-direction:column;
+    min-width:max-content;
+   
+   
 }
 
 .Forma1, .Forma2, .Forma3, .Igra, .Korpa, .Sysreq, .Slika
